@@ -1,0 +1,22 @@
+{
+  "model": "dit_q4.onnx",
+  "chunks": [
+    {
+      "name": "dit_q4_chunk_0.data",
+      "size": 96468992
+    },
+    {
+      "name": "dit_q4_chunk_1.data",
+      "size": 99614720
+    },
+    {
+      "name": "dit_q4_chunk_2.data",
+      "size": 99614720
+    },
+    {
+      "name": "dit_q4_chunk_3.data",
+      "size": 84451328
+    }
+  ],
+  "total_weight_mb": 380.15
+}

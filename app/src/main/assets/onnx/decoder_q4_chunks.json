@@ -1,0 +1,10 @@
+{
+  "model": "decoder_q4.onnx",
+  "chunks": [
+    {
+      "name": "decoder_q4_chunk_0.data",
+      "size": 44894208
+    }
+  ],
+  "total_weight_mb": 44.89
+}

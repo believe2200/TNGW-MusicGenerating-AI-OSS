@@ -1,0 +1,5 @@
+{
+  "model": "number_conditioner.onnx",
+  "chunks": [],
+  "total_weight_mb": 0.79
+}

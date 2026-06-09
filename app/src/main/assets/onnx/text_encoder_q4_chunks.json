@@ -1,0 +1,18 @@
+{
+  "model": "text_encoder_q4.onnx",
+  "chunks": [
+    {
+      "name": "text_encoder_q4_chunk_0.data",
+      "size": 98304000
+    },
+    {
+      "name": "text_encoder_q4_chunk_1.data",
+      "size": 99418112
+    },
+    {
+      "name": "text_encoder_q4_chunk_2.data",
+      "size": 14811136
+    }
+  ],
+  "total_weight_mb": 212.53
+}

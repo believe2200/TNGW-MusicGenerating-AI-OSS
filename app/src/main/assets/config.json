@@ -1,0 +1,46 @@
+{
+  "name": "stable-audio-3-small-music",
+  "upstream": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
+  "license": "Stability AI Community License",
+  "sample_rate": 44100,
+  "io_channels": 256,
+  "downsampling_ratio": 4096,
+  "cond_dim": 768,
+  "global_cond_dim": 768,
+  "local_add_cond_dim": 257,
+  "cross_attn_seq_len": 257,
+  "text_max_length": 256,
+  "audio_align": 8192,
+  "default_seconds": 10,
+  "default_steps": 8,
+  "schedule": {
+    "type": "logsnr",
+    "rate": 0,
+    "anchor_logsnr": -6.2,
+    "logsnr_end": 2.0
+  },
+  "graphs": {
+    "text_encoder": {
+      "manifest": "onnx/text_encoder_q4_chunks.json",
+      "padding_mode": "learned",
+      "hidden_size": 768
+    },
+    "dit": {
+      "manifest": "onnx/dit_q4_chunks.json",
+      "depth": 20,
+      "embed_dim": 1024,
+      "num_memory_tokens": 64
+    },
+    "decoder": {
+      "manifest": "onnx/decoder_q4_chunks.json",
+      "audio_channels": 2
+    },
+    "number_conditioner": {
+      "manifest": "onnx/number_conditioner_chunks.json",
+      "input_name": "seconds",
+      "output_name": "embedding",
+      "min_val": 0,
+      "max_val": 384
+    }
+  }
+}
