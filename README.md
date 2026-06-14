@@ -56,6 +56,3 @@ The source code of this project is licensed under the **Apache License 2.0**. Se
 The AI models used in this application are subject to their respective licenses:
 - **Stable Audio Open**: Licensed under the [Stability AI Community License](LICENSE_STABILITY.md) (see also [original on Hugging Face](https://huggingface.co/stabilityai/stable-audio-open-1.0/blob/main/LICENSE)).
 - **Gemma/T5Gemma**: Subject to the [Gemma Terms of Use](LICENSE_GEMMA.md).
-
----
-Created by [BBQARMY](https://github.com/bbqarmy)
