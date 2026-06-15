@@ -35,7 +35,7 @@ This application utilizes the **stable-audio-3-small-music** model developed by 
 
 This project is made possible by the incredible work of the AI research community. We would like to express our deep respect and gratitude to:
 
-- **Stability AI**: For developing the [**stable-audio-3-small-music**](https://huggingface.co/stabilityai/stable-audio-open-1.0) model.
+- **Stability AI**: For developing the [**stable-audio-3-small-music**](https://huggingface.co/stabilityai/stable-audio-3-small-music) model.
 - **lsb (Hugging Face)**: For providing the quantized [**stable-audio-3-small-music-onnx**](https://huggingface.co/lsb/stable-audio-3-small-music-onnx) models, which enable this application to run efficiently on mobile devices. 
 
 ## Getting Started
