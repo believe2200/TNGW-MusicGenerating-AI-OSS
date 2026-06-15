@@ -28,7 +28,8 @@ The application leverages the following technologies:
 - **Media3 ExoPlayer**: For high-quality audio playback and management.
 
 ### AI Model Integration
-本アプリの音楽生成には、Stability AIが開発した **stable-audio-3-small-music** モデルを利用しています。なお、本アプリは個人の開発者によって提供されるオープンソースプロジェクトであり、Stability AIの公式アプリケーションではなく、同社からの公式な推奨や提携を受けているものではありません。
+
+This application utilizes the **stable-audio-3-small-music** model developed by Stability AI for music generation. Please note that this is an independent open-source project created by an individual developer. This application is not an official product of Stability AI, nor is it officially endorsed by or affiliated with Stability AI.
 
 ### Model Credits
 
