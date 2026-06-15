@@ -27,6 +27,9 @@ The application leverages the following technologies:
 - **T5Gemma Tokenizer**: A custom implementation of the T5Gemma tokenizer for processing text prompts.
 - **Media3 ExoPlayer**: For high-quality audio playback and management.
 
+### AI Model Integration
+本アプリの音楽生成には、Stability AIが開発した **stable-audio-3-small-music** モデルを利用しています。なお、本アプリは個人の開発者によって提供されるオープンソースプロジェクトであり、Stability AIの公式アプリケーションではなく、同社からの公式な推奨や提携を受けているものではありません。
+
 ### Model Credits
 
 This project is made possible by the incredible work of the AI research community. We would like to express our deep respect and gratitude to:
